@@ -1,0 +1,92 @@
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 12%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.light {
+    color: grey;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    opacity: 0.5;
+    background: #d3d3d3c4;
+    margin: 10px 0;
+}
+
+.tag {
+    font-size: 12px;
+    cursor: pointer;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: rgb(53 67 234 / 75%);
+    background: #e6f7ff;
+    border-color: rgb(53 67 234 / 73%);
+    margin-bottom: 5px;
+}
+
+.selectedTag {
+    background: rgb(53 67 234 / 75%);
+    color: white;
+}
+
+.tags {
+    padding: 10px 0;
+}
+
+
+.inputLabels {
+    font-weight: bold;
+    color: gray;
+}
+
+.labelledInputs {
+    border-radius: 8px;
+    padding: 5px;
+    margin: 7px 0;
+}
+
+.pt5 {
+    padding-top: 5px;
+}
+
+
+.labelledDiv {
+    margin-right: 15px;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ant-select-selector {
+    border-radius: 8px !important;
+    height: 35px !important;
+}
+
+.m0 {
+    margin: 0 !important;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.datePicker {
+    border-radius: 8px;
+    padding: 5px;
+    margin: 7px 5px 7px 0;
+}

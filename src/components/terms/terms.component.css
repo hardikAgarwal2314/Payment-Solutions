@@ -1,0 +1,50 @@
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.selectTerms {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 350px;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10px 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: gray;
+}
+
+.selectTerms:hover {
+    background: #d3d3d336;
+}
+
+.last-child {
+    padding-bottom: 20px;
+}
+
+
+.radioButton {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 0.5px solid lightgray;
+    margin-right: 10px;
+}
+
+.selectedTerm {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 0.5px solid lightgray;
+    margin-right: 10px;
+    background: #052ebdc9;
+    padding: 2px;
+    background-clip: content-box;
+}
